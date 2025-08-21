@@ -19,7 +19,7 @@ int main (int argc, char* argv[])
 
 	if (strcmp(argv[1], "--version") == 0)
 	{
-		printf("brik by SzChurros v1.0.0\n");
+		printf("brik by SzChurros v1.0.2\n");
 		return 0;
 	}
 
