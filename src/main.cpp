@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include <cstdlib>
+#include <cstring>
 
 std::vector<std::string> fetchfile(const char* path);
 void writefile(const char* path, std::vector<std::string> data);
@@ -14,6 +15,12 @@ int main (int argc, char* argv[])
 	{
 		help();
 		return -1;
+	}
+
+	if (strcmp(argv[1], "--version") == 0)
+	{
+		printf("brik by SzChurros v1.0.0\n");
+		return 0;
 	}
 
 	std::vector<std::string> filecontent = fetchfile(argv[1]);

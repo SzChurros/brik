@@ -33,7 +33,13 @@ brik brik.cfg
 ./build.sh
 ```
 
+### Installing
+
+```bash
+makepkg -si
+```
+
 ### Running
- 
-executable is in `bin/`
+
+just run brik in the terminal
 
