@@ -3,7 +3,7 @@
 
 ---
 
-Kinda went on a sidequest from SzCzOs which in future will be only compilable via this tool
+Kinda went on a sidequest from SzCzOs
 
 # Compilation
 
