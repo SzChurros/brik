@@ -140,7 +140,7 @@ int main (int argc, char* argv[])
 		{
 			moddat.push_back("thirdparty/" + projectname + "/" + tolink[i]);
 		}
-		writefile("brik.lib.txt", moddat);
+		writefile("brik.lib", moddat);
 		printf("built liblary\n");
 	}
 	else
