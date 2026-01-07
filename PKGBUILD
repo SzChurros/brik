@@ -1,6 +1,6 @@
 # Maintainer: SzChurros
 pkgname=brik
-pkgver=1.0.3
+pkgver=1.1.0
 pkgrel=1
 pkgdesc="Awful build automation tool"
 arch=('x86_64')
